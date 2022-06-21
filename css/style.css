@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+/* utility css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.primary-button {
+    background: #FF6341;
+    padding: 18px;
+    outline: none;
+    border: 3px solid #FF6341;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: all .3s ease;
+}
+
+.primary-button:hover {
+    background: transparent;
+    border: 3px solid #FF6341;
+    color: #000000;
+}
+
+.primary-button-outline {
+    background: transparent;
+    padding: 18px;
+    outline: none;
+    border: 3px solid #FF6341;
+    color: #000000;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: all .3s ease;
+}
+
+.primary-button-outline:hover {
+    background: #FF6341;
+    color: #ffffff;
+
+}
+
+
+/* nav bar css */
+
+ul li a {
+    margin-right: 56px;
+    color: #2E2E2E;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all .2s ease;
+}
+
+.last-link {
+    margin-right: 0;
+}
+
+
+ul li a:hover {
+    color: #F54B4B;
+}
+
+.toggle-icon {
+    color: #F54B4B;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* banner css */
+.banner-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.title-color {
+    color: #F54B4B;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.banner-image {
+    height: 466;
+    width: 466;
+}
+
+.line {
+    display: inline-block;
+    width: 2px;
+    height: 140px;
+    background: #F54B4B;
+    margin-right: 12px;
+}
+
+.sosial-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    background: #000000;
+    color: #ffffff;
+    margin: 8px 0px;
+    transition: all .2s ease;
+}
+
+.sosial-link:hover {
+    color: #FFFFFF;
+    background: #F54B4B;
+}
+
+.banner-overly {
+    position: absolute;
+    right: 105px;
+    top: -75px;
+    width: 128px;
+    height: 202px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.image-text {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.image-text-dilog {
+    font-weight: 500;
+    font-size: 7px;
+}
+
+.image-price {
+    font-weight: 700;
+    font-size: 14px;
+    color: #F54B4B;
+}
+
+.banner-location {
+    position: absolute;
+    bottom: 70px;
+    left: -20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15.5px;
+    width: 214px;
+    height: 62px;
+}
+
+.location-icon {
+    color: #F54B4B;
+}
+
+.location-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.side-vagitable {
+    position: absolute;
+    left: 0;
+    top: 550px;
+}
+
+
+@media (max-width: 480px) {
+    ul li {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    ul li a {
+        margin-right: 0;
+    }
+
+    .mobile-menu {
+        width: 100px;
+        margin-left: auto;
+        padding: 0;
+
+    }
+
+    .banner-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .line {
+        display: inline-block;
+        width: 140px;
+        height: 2px;
+        background: #F54B4B;
+    }
+
+    .sosial-link {
+        margin: 0px 8px;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .primary-button {
+        background: #FF6341;
+        padding: 15px;
+        border: 2px solid #FF6341;
+        font-size: 14px;
+    }
+
+    .primary-button-outline {
+        padding: 15px;
+        border: 2px solid #FF6341;
+        font-size: 14px;
+    }
+
+    .banner-overly {
+        right: 30px;
+        top: -50px;
+        width: 120px;
+        height: 180px;
+    }
+
+    .banner-location {
+        bottom: 70px;
+        left: 20px;
+        width: 180px;
+        height: 50px;
+    }
+}
