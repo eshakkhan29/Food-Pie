@@ -95,6 +95,18 @@ ul li {
     font-size: 18px;
 }
 
+#menu-section {
+    background: linear-gradient(0deg, #FFFAF5, #FFFAF5), #FFFFFF;
+}
+
+#choose-us-section {
+    background: #FFFAF5;
+}
+
+#table-section {
+    background: #FFFAF5;
+}
+
 /* nav bar css */
 
 ul li a {
