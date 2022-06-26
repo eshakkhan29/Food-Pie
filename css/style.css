@@ -529,6 +529,122 @@ ul li a:hover {
     color: #2E2E2E;
 }
 
+/* Table Booking css */
+.from {
+    width: 540px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.table-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.from-input {
+    outline: none;
+    border: 2px solid #E14134;
+    padding: 15px;
+    text-align: center;
+}
+
+.from-input::placeholder {
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.booking-button {
+    background: #E14134;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.booking-card {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    width: 445px;
+}
+
+.location {
+    font-weight: 600;
+    font-size: 24px;
+    color: #E14134;
+}
+
+.location-state {
+    font-weight: 400;
+    font-size: 16px;
+    color: #070707;
+}
+
+/* Our clint's Says css */
+.clint-say {
+    Width: 539px;
+    margin: auto;
+    border: 2px solid #E14134;
+    position: relative;
+    margin-top: 150px;
+}
+
+.cline-name {
+    font-weight: 700;
+    font-size: 28px;
+    color: #E14134;
+}
+
+.client-job {
+    font-weight: 400;
+    font-size: 20px;
+    color: #1C1C1C;
+}
+
+.client-social-icon {
+    margin: 0px 5px;
+}
+
+.client-social-icon {
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.client-social-icon i {
+    color: #E14134;
+    font-size: 18px;
+}
+
+.client-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #292929;
+    text-align: center;
+}
+
+.client-text::before {
+    content: url(../utilitys/icon/before-quate.png);
+}
+
+.client-text::after {
+    content: url(../utilitys/icon/after-quate.png);
+}
+
+.client-image {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 @media (max-width: 480px) {
     ul li {
         display: inline-block;
@@ -598,8 +714,17 @@ ul li a:hover {
     .section-title-2 {
         font-size: 30px;
     }
-    .arrow{
+
+    .arrow {
         transform: rotate(90deg);
+    }
+
+    .from {
+        width: 100%;
+    }
+
+    .booking-card {
+        width: 100%;
     }
 
 }
