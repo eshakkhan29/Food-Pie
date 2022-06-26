@@ -218,16 +218,42 @@ ul li a:hover {
     font-size: 18px;
 }
 
-.side-vagitable {
+.side-vegetable {
     position: absolute;
     left: 0;
     top: 550px;
 }
 
-.side-vagitable-2 {
+.side-vegetable-2 {
     position: absolute;
     right: 0;
     top: 1800px;
+    transform: rotate(180deg);
+}
+
+.side-vegetable-3 {
+    position: absolute;
+    left: 0;
+    top: 3100px;
+}
+
+.side-vegetable-4 {
+    position: absolute;
+    right: 0;
+    top: 3700px;
+    transform: rotate(180deg);
+}
+
+.side-vegetable-5 {
+    position: absolute;
+    left: 0;
+    top: 5130px;
+}
+
+.side-vegetable-6 {
+    position: absolute;
+    right: 0;
+    top: 6100px;
     transform: rotate(180deg);
 }
 
@@ -614,13 +640,16 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-}
-
-.client-social-icon i {
     color: #E14134;
     font-size: 18px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    transition: all .5s ease;
+}
+
+.client-social-icon:hover {
+    background: #E14134;
+    color: white;
 }
 
 .client-text {
@@ -724,6 +753,10 @@ ul li a:hover {
     }
 
     .booking-card {
+        width: 100%;
+    }
+
+    .clint-say {
         width: 100%;
     }
 
