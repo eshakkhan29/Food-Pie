@@ -24,7 +24,7 @@ ul li {
     background: #FF6341;
     padding: 18px;
     outline: none;
-    border: 3px solid #FF6341;
+    border: 2px solid #FF6341;
     color: #ffffff;
     border-radius: 4px;
     font-weight: 700;
@@ -35,7 +35,7 @@ ul li {
 
 .primary-button:hover {
     background: transparent;
-    border: 3px solid #FF6341;
+    border: 2px solid #FF6341;
     color: #000000;
 }
 
@@ -730,7 +730,7 @@ ul li a:hover {
 }
 
 .join-us-input {
-    padding: 21px 12px;
+    padding: 20px 12px;
     width: 100%;
     outline: none;
     border: 2px solid #E14134;
