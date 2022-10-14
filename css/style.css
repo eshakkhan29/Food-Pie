@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 /* utility css */
+
+
 * {
     padding: 0;
     margin: 0;
@@ -107,7 +109,14 @@ ul li {
     background: #FFFAF5;
 }
 
+
+
+
+
 /* nav bar css */
+
+
+
 
 ul li a {
     margin-right: 56px;
@@ -134,7 +143,13 @@ ul li a:hover {
     box-shadow: none !important;
 }
 
+
+
+
 /* banner css */
+
+
+
 .banner-title {
     font-weight: 700;
     font-size: 48px;
@@ -269,7 +284,13 @@ ul li a:hover {
     transform: rotate(180deg);
 }
 
+
+
+
 /* our menu css */
+
+
+
 .menu-icon-box-active {
     position: relative;
     margin-top: 20px;
@@ -308,7 +329,13 @@ ul li a:hover {
     background: #E0E0E0;
 }
 
+
+
+
 /* food items css */
+
+
+
 .item-active {
     background: #FF6341;
 }
@@ -429,7 +456,12 @@ ul li a:hover {
     font-size: 20px;
 }
 
+
+
 /* Offer section  css */
+
+
+
 .offer-row {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 }
@@ -528,7 +560,12 @@ ul li a:hover {
     color: #F3F3F3;
 }
 
+
+
 /* Why Choose Us css */
+
+
+
 .choose-card {
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
@@ -554,7 +591,12 @@ ul li a:hover {
     font-size: 24px;
 }
 
+
+
 /* Checkout css */
+
+
+
 .Checkout-title {
     font-weight: 700;
     font-size: 24px;
@@ -567,7 +609,12 @@ ul li a:hover {
     color: #2E2E2E;
 }
 
+
+
 /* Table Booking css */
+
+
+
 .from {
     width: 540px;
     background: #FFFFFF;
@@ -620,7 +667,12 @@ ul li a:hover {
     color: #070707;
 }
 
+
+
 /* Our clint's Says css */
+
+
+
 .clint-say {
     Width: 539px;
     margin: auto;
@@ -686,7 +738,12 @@ ul li a:hover {
     transform: translate(-50%);
 }
 
+
+
 /* footer css */
+
+
+
 #footer {
     background: #0F0F0F;
 }
